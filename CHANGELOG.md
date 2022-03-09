@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/irfancoder/vue-layout/compare/v0.1.1...v0.1.2) (2022-03-09)
+
+
+### Bug Fixes
+
+* npmignore & update github details ([11642eb](https://github.com/irfancoder/vue-layout/commit/11642eb26b99db84874ddd9e91089c66c35df987))
+
 ### [0.1.1](https://github.com/irfancoder/vue-layout/compare/v0.1.0...v0.1.1) (2022-03-09)
 
 
