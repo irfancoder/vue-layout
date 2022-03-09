@@ -1,5 +1,5 @@
 {
-  "name": "@irfancoder/vue-layout",
+  "name": "@irfanismail/vue-layout",
   "description": "VueLayout is a simple yet dynamic way to handle your layouts inside a Vue application",
   "private": false,
   "version": "0.1.1",
@@ -10,6 +10,12 @@
     "router"
   ],
   "author": "irfan ismail <irfan.ismail96@gmail.com> (https://irfanismail.com/)",
+  "homepage": "https://github.com/irfancoder/vue-layout.git",
+  "main": "dist/vue-layout.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irfancoder/vue-layout.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
