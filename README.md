@@ -22,10 +22,10 @@ VueLayout leverages on `vue-router` as a way to manage the switching of layouts.
 Use any of the NPM package manager
 ```bash
 # NPM
-npm install vue-layout --save-dev
+npm install @irfanismail/vue-layout --save-dev
 
 # Yarn
-yarn add vue-layout -D
+yarn add @irfanismail/vue-layout -D
 ```
 
 ## Usage
