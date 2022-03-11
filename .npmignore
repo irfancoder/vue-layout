@@ -1,3 +1,5 @@
 src/development
+src/App.vue
+src/main.js
 node_modules
 .vscode

@@ -54,7 +54,7 @@ yarn add @irfanismail/vue-layout -D
 
 // Options API
 <script>
-import LayoutVue from 'vue-layout'
+import LayoutVue from '@irfanismail/vue-layout'
 
 export default {
     components: {
@@ -66,7 +66,7 @@ export default {
 
 // Composition API
 <script setup>
-import LayoutVue from 'vue-layout'
+import LayoutVue from '@irfanismail/vue-layout'
 </script>
 
 ```
@@ -82,7 +82,7 @@ import LayoutVue from 'vue-layout'
 
 // Options / Composition API
 <script>
-import { useLayout } from 'vue-layout'
+import { useLayout } from '@irfanismail/vue-layout'
 import { useRoute } from 'vue-router'
 
 export default {
@@ -193,7 +193,8 @@ import TeamLayout from '@/layouts/TeamLayout.vue'
 
 ```
 
-- If we have lots of pages, we are bound to repeat this same pattern over and over again, which sucks! By using `vue-layout`, we get rid of this repeating code and let the router handle the layouts for us.
+- If we have lots of pages, we are bound to repeat this code pattern over and over again, which sucks! By using `vue-layout`, we get rid of this repeating code and let the router handle the layouts for us.
+
 - Layout nesting is done by listing the layouts in an **[array]** starting from the **outer layer to the inner layer**. The page content will be rendered inside the **last layout in the array!**
 
 
@@ -202,6 +203,7 @@ import TeamLayout from '@/layouts/TeamLayout.vue'
 ## Limitations
 
 - You cannot directly pass props to your layout components. To mitigate this, you can use state management tool such as Vuex or Pinia to manage the state of your layout components.
+
 - Does not handle custom layout slots.
 
 
